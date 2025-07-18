@@ -1,2 +1,4 @@
+# Add your specific keys and rename this file as .env
+
 MODEL=xxxxxxxxxxxxxxxxxxxxxxxxxx
 OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxx
