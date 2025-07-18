@@ -33,7 +33,6 @@ patient_classifier_agent_project/
 
 ## ⚙️ Setup Instructions
 
-```bash
 git clone https://github.com/shyamvaidhyanathan/patient-health-agent.git
 cd patient-health-agent
 
