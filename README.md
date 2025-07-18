@@ -26,6 +26,7 @@ patient_classifier_agent_project/ <br>
 │ └── appointment_db.py # Dummy appointment data<br>
 ├── requirements.txt # Python dependencies<br>
 └── README.md # This file<br>
+└── .env <br> 
 <br>
 <br>
 
