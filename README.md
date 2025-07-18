@@ -13,20 +13,21 @@ This project demonstrates how to use **FastAPI**, **Model Context Protocol (MCP)
 
 ## 📁 Project Structure
 
-patient_classifier_agent_project/
-├── agent/
-│ └── crewai_agent.py # ADK Agent using CrewAI
-├── api/
-│ └── patient_classifier_api.py # FastAPI classification endpoint
-├── mcp/
-│ └── mcp_server.py # MCP server wrapping the API
-├── tools/
-│ └── classify_tool.py # Tool wrapper to interface API with agent
-├── data/
-│ └── appointment_db.py # Dummy appointment data
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
+patient_classifier_agent_project/ <br>
+├── agent/ <br>
+│ └── crewai_agent.py # ADK Agent using CrewAI <br>
+├── api/ <br>
+│ └── patient_classifier_api.py # FastAPI classification endpoint<br>
+├── mcp/<br>
+│ └── mcp_server.py # MCP server wrapping the API<br>
+├── tools/<br>
+│ └── classify_tool.py # Tool wrapper to interface API with agent<br>
+├── data/<br>
+│ └── appointment_db.py # Dummy appointment data<br>
+├── requirements.txt # Python dependencies<br>
+└── README.md # This file<br>
+<br>
+<br>
 
 
 ---
