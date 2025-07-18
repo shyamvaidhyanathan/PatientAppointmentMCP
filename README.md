@@ -33,20 +33,20 @@ patient_classifier_agent_project/
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/shyamvaidhyanathan/patient-health-agent.git
 cd patient-health-agent
 
-## Create a python virtual environment
+
+
+### Create a python virtual environment
 python -m venv env
 source env/bin/activate   # On Windows: env\Scripts\activate
 
-## Install Dependencies
+### Install Dependencies
 pip install -r requirements.txt
 
----
+
 
 ## ⚙️ Execution  Instructions
 
@@ -64,8 +64,7 @@ python agent/crewai_agent.py
 
 
 
-
-🧠 Health Classification Logic
+## 🧠 Health Classification Logic
 The patient is classified based on the number of appointments in the past year:
 
 CHRONIC: More than 10 appointments
@@ -76,7 +75,7 @@ HEALTHY: Less than 5 appointments
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 FastAPI – for building REST API
 
 CrewAI – for autonomous agent management
@@ -89,9 +88,9 @@ Uvicorn – for serving ASGI apps
 
 
 
-📄 License
+## 📄 License
 MIT License
 
 
-🙋‍♀️ Maintainer
+## 🙋‍♀️ Maintainer
 Shyam Vaidhyanathan
