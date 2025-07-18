@@ -1,0 +1,44 @@
+# Environments etc..etc..
+*.py[cod]
+*$py.class
+__pycache__/
+env/
+*.pyc
+.env
+.env.*
+.venv/
+ENV/
+env.bak/
+venv/
+venv.bak/
+
+#Optional Stuff Future Proofing 
+# Log files
+*.log
+
+# Pip dependency files
+pip-log.txt
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Local secrets / personal config
+secrets.json
+credentials.json
+
+#locks
+Pipfile.lock
+
+

@@ -1,0 +1,24 @@
+# Web Framework
+fastapi
+uvicorn
+
+#MCP
+fastapi_mcp
+
+# Data Models & Validation
+pydantic
+
+# HTTP Client
+requests
+
+# CrewAI and Dependencies
+crewai
+crewai-tools
+
+
+# LangChain tools (used for MCP-style tool wrappers)
+langchain
+langchain-community
+
+# Optional: Logging or utility enhancements
+python-dotenv
